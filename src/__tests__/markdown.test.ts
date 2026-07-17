@@ -10,7 +10,7 @@ const SAMPLE: ParsedLock = {
     status: 'active',
     created: '2026-07-17T18-45-12',
     updated: '2026-07-17T18-45-12',
-    scope: ['backend/src/hindsight/**', 'apps/organisely/app/hindsight/**'],
+    scope: ['backend/src/hindsight/**', 'apps/web/app/hindsight/**'],
   },
   title: 'Add hindsight route tests',
   tasks: [

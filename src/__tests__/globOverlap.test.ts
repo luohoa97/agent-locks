@@ -20,7 +20,7 @@ describe('patternsOverlap', () => {
   });
 
   it('does not flag two unrelated top-level directories as overlapping', () => {
-    expect(patternsOverlap('backend/src/**', 'apps/organisely/**')).toBe(false);
+    expect(patternsOverlap('backend/src/**', 'apps/web/**')).toBe(false);
   });
 
   it('conservatively treats an extension-only glob as overlapping anything under the same tree', () => {
